@@ -8,10 +8,8 @@
  */
 void more_numbers(void)
 {
-int i;
-int h;
-int v;
-i = 9;
+int i, h, v;
+i = 10;
 while (i--)
 {
 for (h = 0, v = 0; v <= 14; v++)
