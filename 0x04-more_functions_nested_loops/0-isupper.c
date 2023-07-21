@@ -1,11 +1,11 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * _isupper - check if c is upper.
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * @c: input for alphabet
+ *
+ * Return: 1 if its uppercase. 0 if not
  */
 int _isupper(int c)
 {
